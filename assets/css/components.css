@@ -14,8 +14,61 @@ a.btn {
   transition-duration: 500ms;
   transition-timing-function: ease-in-out; */
   transition: background-color 0.5s;
+  display: inline-block;
 }
 
 .btn:hover {
   background-color: #f55;
+}
+
+.bear img {
+  width: 100%;
+}
+
+.bear h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bear p {
+  margin-bottom: 40px;
+}
+
+.block {
+  margin-bottom: 100px;
+}
+.block img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.starter img {
+  width: 100%;
+}
+
+footer {
+  height: 300px;
+  background-color: #000;
+}
+
+nav {
+  height: 100px;
+  background-color: #000;
+  text-align: center;
+  line-height: 100px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 0 30px;
+  transition: color 500ms;
+}
+
+nav a:hover {
+  color: #f11;
+  /* border-bottom: 2px solid; */
+  text-decoration: underline;
 }
